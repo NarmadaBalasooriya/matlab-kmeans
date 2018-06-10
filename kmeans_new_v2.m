@@ -41,7 +41,7 @@ function [indices, centroids] = kmeans_new_v2(X, k)
             min_dis = norm(Y(n,:)-centroids(minIdx,:),2); 
             
            for j = 1:k
-                dist = norm(centroids(j,:)-X(n,:),1);
+                dist = norm(centroids(j,:)-X(n,:),2);
                 if(dist < min_dis)% check for the minimum distance
                     min_dis = dist; 
                     minIdx = j; % change the index
