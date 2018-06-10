@@ -1,12 +1,18 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% SC556 - Assignment
+%% 
 % Author: Narmada Balasooriya
-% Registration Number: PGIS/SC/MSC/CSC/17/06
 % k-means algorithm
 %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function [indices, centroids] = kmeans_new_v2(X, k)
+
+    % X = input (rows*columns)
+    % k = number of clusters
+    
+    % indices = cluster indices for input
+    % centroids = final cluster centroids
+    
     %% Variable Initializations %$
     Y = X;
     [rows,m] = size(Y); % get the size of the dataset
