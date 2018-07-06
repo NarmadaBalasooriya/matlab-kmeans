@@ -1,8 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% SC556 - Assignment 02 - part 2
 % Author: Narmada Balasooriya
-% Registration Number: PGIS/SC/MSC/CSC/17/06
-% k-means implementation
+% k-means image segmentation implementation
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %% Read the images
